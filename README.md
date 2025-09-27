@@ -1,5 +1,5 @@
 # Brain-Tumor-Detection-by-CNN
-This project focuses on building a Convolutional Neural Network (CNN) to detect brain tumors from MRI images. It uses Python along with TensorFlow and Keras for model development and training, while NumPy and Pandas are used for data handling, and Matplotlib is applied for visualization.
+This project focuses on building a Convolutional Neural Network (CNN) to detect brain tumors from MRI images given here inside "Positive (having brain tumor)" and "Negative (not having brain tumor)" folders. It uses Python along with TensorFlow and Keras for model development and training, while NumPy and Pandas are used for data handling, and Matplotlib is applied for visualization.
 
 The workflow begins with preparing the training, validation, and testing datasets, where image data is preprocessed using Keras’ ImageDataGenerator. The CNN model is then constructed with several layers including Conv2D, MaxPooling, Dropout, Flatten, Dense, and BatchNormalization to extract meaningful features from the MRI scans. The model is compiled with the Adam optimizer, binary crossentropy as the loss function, and accuracy as the evaluation metric.
 
